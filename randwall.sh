@@ -8,3 +8,13 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" 
 
 # Apply the selected wallpaper
 hyprctl hyprpaper reload ,"$WALLPAPER"
+
+# pywal wal
+wal -n -e -q -i "$WALLPAPER"
+
+# prep colors for hyprland usage
+sed -i -e 's/^/$/' ~/.cache/wal/colors-oomox
+cp ~/.cache/wal/colors-oomox ~/.config/hypr/colors.conf
+
+# waybar
+killall -SIGUSR2 waybar 
