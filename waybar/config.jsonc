@@ -10,19 +10,19 @@
     "modules-left": [
         "hyprland/workspaces",
         "mpris"
-        // "battery",
-        // "backlight",
         // "mpd"
         // "battery#bat2",
         // "sway/mode",
         // "sway/scratchpad",
         // "custom/media"
     ],
-    // "modules-center": [
+    "modules-center": [
+        "battery",
+        "backlight"
     //     "cpu",
     //     "memory"
     //     // "sway/window"
-    // ],
+    ],
     "modules-right": [
         "tray",
         "pulseaudio",

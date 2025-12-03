@@ -93,6 +93,12 @@ window#waybar {
     color: @color1;
 }
 
+#battery,
+#backlight {
+    background-color: @background;
+    color: @color1;
+}
+
 #mpris:hover {
     /* background: rgba(0, 0, 0, 0.2); */
     border-color: rgba(0,0,0,0);
