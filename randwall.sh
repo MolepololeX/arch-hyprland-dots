@@ -19,3 +19,6 @@ cp ~/.cache/wal/colors-oomox ~/.config/hypr/colors.conf
 
 # waybar
 killall -SIGUSR2 waybar 
+
+# pywallfox
+pywalfox update

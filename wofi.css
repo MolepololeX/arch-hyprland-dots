@@ -1,0 +1,53 @@
+@import "/home/mlpx/.cache/wal/colors-waybar.css";
+
+/* CSS Selector for the entire wofi window */
+window{
+    background-color: @background;
+    color: @color2;
+    font-family: GeistMono Nerd Font;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Selector for a box that everything else sits inside of */
+#outer-box {
+    /* background-color: red; */
+    margin: 8px;
+}
+/* Selector for the text box for filtering items */
+#input {
+    border-radius: 5px;
+}
+
+/* Selector for the scroll window containing inner-box */
+#scroll {
+}
+
+/* Selector for the box containing all entries */
+#inner-box {
+}
+
+/* Selector for the box containing text and if present, images */
+#entry {
+    margin: 8px 0px;
+    border-radius: 5px;
+}
+
+#entry:selected{
+    color: @background;
+    background-color: @foreground;
+}
+
+/* Selector for the box containing the name of the program/option inserted */
+#text {
+}
+
+#text:selected{
+    color: @background;
+    background-color: @foreground;
+}
+
+/* Selector for images displayed in entries */
+#img {
+    margin: 8px 8px;
+    border-radius: 5px;
+}
