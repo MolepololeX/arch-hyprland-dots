@@ -12,7 +12,7 @@
 $font = Monospace
 
 general {
-    hide_cursor = true
+    hide_cursor = false
 }
 
 animations {
@@ -24,9 +24,9 @@ animations {
 }
 
 background {
+    monitor =
     path = screenshot
     blur_passes = 5
-    brightness = 0.0
 }
 
 input-field {
@@ -61,10 +61,10 @@ input-field {
     halign = center
     valign = center
 }
-#
+
 # # TIME
 # label {
-#     monitor = DP-1
+#     monitor =
 #     text = $TIME # ref. https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/#variable-substitution
 #     font_size = 90
 #     font_family = $font
@@ -76,7 +76,7 @@ input-field {
 #
 # # DATE
 # label {
-#     monitor = DP-1
+#     monitor =
 #     text = cmd[update:60000] date +"%A, %d %B %Y" # update every 60 seconds
 #     font_size = 25
 #     font_family = $font
@@ -85,14 +85,14 @@ input-field {
 #     halign = right
 #     valign = top
 # }
-#
-# label {
-#     zindex = -1
-#     monitor = DP-1
-#     text = ⏻
-#     font_size = 50
-#     position = 25, 0
-#     halign = left
-#     valign = top
-#     onclick = ~/.config/hypr/randwall.sh
-# }
+
+label {
+    zindex = -1
+    monitor = 
+    text = ⏻
+    font_size = 50
+    position = 25, 0
+    halign = left
+    valign = top
+    onclick = ~/.config/hypr/randwall.sh
+}
