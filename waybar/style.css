@@ -18,11 +18,11 @@ window#waybar {
 #workspaces {
     padding: 8px 0px 8px 45px;
     margin: 0px -8px 0px 0px;
-    border-radius: 500px;
 }
 
 #workspaces * {
     font-weight: 900;
+    border-radius: 5px;
 }
 
 #workspaces button {

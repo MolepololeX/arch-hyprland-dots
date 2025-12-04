@@ -10,7 +10,8 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" 
 hyprctl hyprpaper reload ,"$WALLPAPER"
 
 # pywal wal
-wal -n -e -q -i "$WALLPAPER"
+# wal -n -e -q -i "$WALLPAPER"
+wpg -s "$WALLPAPER"
 
 # prep colors for hyprland usage
 sed -i -e 's/^/$/' ~/.cache/wal/colors-oomox
