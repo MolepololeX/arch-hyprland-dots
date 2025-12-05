@@ -15,7 +15,8 @@ PS1='[\u@\h \W]\$ '
 export NIXPKGS_ALLOW_UNFREE=1
 export PATH=$PATH:/home/mlpx/.local/bin
 
-freshfetch
+# freshfetch
+neofetch
 cat ~/.todo.md
 
 eval "$(oh-my-posh init bash --config '~/.config/hypr/ohmyposh.json')"
