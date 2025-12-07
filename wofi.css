@@ -3,6 +3,7 @@
 /* CSS Selector for the entire wofi window */
 window{
     background-color: @background;
+    background-color: rgba(0,0,0,0);
     color: @color2;
     font-family: GeistMono Nerd Font;
     font-size: 18px;
