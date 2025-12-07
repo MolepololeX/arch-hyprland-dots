@@ -18,6 +18,6 @@ export PATH=$PATH:/home/mlpx/.local/bin
 
 # freshfetch
 neofetch
-cat ~/.todo.md
+# cat ~/.todo.md
 
 eval "$(oh-my-posh init bash --config '~/.config/hypr/ohmyposh.json')"
