@@ -16,6 +16,7 @@ window#waybar {
 
     /* border-bottom: 1px solid #181825; */
     /* border-radius: 50px; */
+    /* border-bottom: 2px solid @foreground; */
 }
 
 #workspaces {
@@ -95,6 +96,31 @@ window#waybar {
     border-radius: 50px;
     margin: 4px 0px;
     padding: 0px 8px;
+}
+
+#clock {
+    color: @color2;
+}
+#network {
+    color: @color2;
+}
+#pulseaudio {
+    color: @color3;
+}
+#backlight {
+    color: @color4;
+}
+#battery {
+    color: @color5;
+}
+#mpris {
+    color: @color6;
+}
+#workspaces button {
+    color: @color7;
+}
+#workspaces button.active {
+    color: @color2;
 }
 
 #mpris {
