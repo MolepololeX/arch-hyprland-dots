@@ -2,16 +2,15 @@
 
 WALLPAPER_DIR="$HOME/wallpapers/used"
 CURRENT_WALL=$(hyprctl hyprpaper listloaded)
-
-# Get a random wallpaper that is not the current one
-# WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" | shuf -n 1)
 WALLPAPER="$HOME/wallpapers/moon.png"
 
-# Apply the selected wallpaper
-hyprctl hyprpaper reload ,"$WALLPAPER"
+MONITORS=$(hyprctl monitors -j | jq -r '.[] | select(.disabled | not) | .name')
+for M in $MONITORS; do
+    echo $M
+    hyprctl hyprpaper reload $M,"$WALLPAPER"
+done
 
-# pywal wal
-# wal -n -e -q -i "$WALLPAPER"
+#wpg includes wal
 wpg -s "$WALLPAPER"
 
 # prep colors for hyprland usage

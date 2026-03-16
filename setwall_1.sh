@@ -1,0 +1,1 @@
+/home/mlpx/.cache/firefox/userdata/wp/setwall_1.sh
