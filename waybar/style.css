@@ -2,26 +2,36 @@
 
 * {
     font-family: GeistMono Nerd Font;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
+    /* margin: 4px; */
 }
 
 window#waybar {
     background-color: @background;
     background: rgba(0.0, 0, 0, 0.0);
+    /* background-color: rgba(1.0, 0, 0, 0.5); */
+    /* background-color: @foreground; */
     color: @foreground;
 
     transition-property: background-color;
     transition-duration: .5s;
 
+
     /* border-bottom: 1px solid #181825; */
-    /* border-radius: 50px; */
+    border-radius: 50px;
+    border-radius: 0px 32px 32px 0px;
     /* border-bottom: 2px solid @foreground; */
 }
 
 #workspaces {
+    
+    margin: 16px;
+
+    border-radius: 32px;
+    background-color: @background;
+    /* background: rgba(0.0, 0, 0, 0.0); */
     /* padding: 0px 0px 0px 45px; */
-    margin-left: 45px;
     /* background: @color1; */
     /* border-radius: 50px; */
 }
@@ -33,11 +43,11 @@ window#waybar {
 }
 
 #workspaces button {
+    border-radius: 50px;
     background-color: @background;
-    background: rgba(0.0, 0, 0, 0.0);
     color: @foreground;
-    margin: 4px 8px;
-    padding: 0px 0px;
+    padding: 8px 16px;
+    margin: 4px;
 }
 
 #workspaces button:hover {
@@ -47,11 +57,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background-color: @background;
-    background: rgba(0.0, 0, 0, 0.0);
+    background-color: @foreground;
     color: @color2;
-    margin: 4px 8px;
-    padding: 0px 0px;
 }
 
 #workspaces button.urgent {
@@ -90,18 +97,22 @@ window#waybar {
     /* background-color: @foreground; */
     /* background-color: rgba(0,0,0,0); */
     background-color: @background;
-    background: rgba(0.0, 0, 0, 0.0);
+    /* background: rgba(0.0, 0, 0, 0.0); */
     color: @foreground;
     /* font-weight: 700; */
     border-radius: 50px;
-    margin: 4px 0px;
-    padding: 0px 8px;
+    margin: 0px 0px;
+    padding: 16px 0px;
 }
 
 #clock {
     color: @color2;
+    border-radius: 32px;
 }
 #network {
+    border-radius: 32px;
+    padding: 14px 0px;
+    margin: 16px;
     color: @color2;
 }
 #pulseaudio {
@@ -143,18 +154,23 @@ window#waybar {
 }
 
 #tray {
-    padding: 0px 8px 0px 8px;
+    padding: 19px 0px;
+    margin: 16px;
+    /* border-radius: 0px 32px 0px 0px; */
     /* background-color: @background; */
     /* color: @color2; */
 }
 
 #pulseaudio {
+    margin: 16px;
+    /* border-radius: 0px 0px 0px 0px; */
     /* padding: 0px 10px 0px 8px; */
     /* background-color: @background; */
     /* color: @color2; */
 }
 
 #clock {
+    margin: 16px;
     /* color: #191724; */
     /* background-color: #e0def4; */
     /* background-color: #ebbcba; */
@@ -164,7 +180,7 @@ window#waybar {
     /* font-weight: bold; */
     /* border-radius: 5px; */
     /* margin: 8px 53px 8px 0px; */
-    margin-right: 53px;
+    /* margin-right: 53px; */
     /* padding: 0px 8px; */
 }
 
