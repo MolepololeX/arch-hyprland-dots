@@ -9,8 +9,9 @@
     // Choose the order of the modules
     "modules-left": [
         "clock",
-        "network",
-        "battery"
+        "network"
+        // "battery",
+        // "backlight"
         // "mpris"
         // "mpd"
         // "battery#bat2",
@@ -19,7 +20,6 @@
         // "custom/media"
     ],
     "modules-center": [
-        "backlight",
         "hyprland/workspaces"
     //     "cpu",
     //     "memory"
@@ -144,7 +144,7 @@
     // },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
+        "format": "{icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
@@ -153,10 +153,10 @@
             // "warning": 30,
             "critical": 7
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format": "{icon}",
+        "format-full": "{icon}",
+        "format-charging": "",
+        "format-plugged": "",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -181,7 +181,7 @@
         // "format-wifi": "{essid} ({signalStrength}%) ",
         // "format-ethernet": "{ipaddr}/{cidr} 󰴽",
         "format-wifi": " ",
-        "format-ethernet": "󰴽 ",
+        "format-ethernet": " ",
         "tooltip-format": "{ifname}\n{gwaddr}\n{essid}\n{signalStrength}%",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
@@ -189,14 +189,14 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}\n{format_source}",
+        "format": "{icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "",
         "format-source-muted": "",
         "format-icons": {
-            "headphone": "󰋋 ",
+            "headphone": " ",
             "hands-free": "",
             "headset": "",
             "phone": "",

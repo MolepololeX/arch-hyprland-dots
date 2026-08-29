@@ -134,54 +134,17 @@ window#waybar {
     color: @color2;
 }
 
-#mpris {
-    /* padding: 0px 12px; */
-    /* margin: 8px 0px 8px 0px; */
-    /* background-color: @background; */
-    /* color: @color2; */
-}
-
-#battery,
-#backlight {
-    /* background-color: @background; */
-    /* color: @color2; */
-}
-
-#mpris:hover {
-    /* background: rgba(0, 0, 0, 0.2); */
-    border-color: rgba(0,0,0,0);
-    color: @foreground;
-}
-
 #tray {
     padding: 19px 0px;
     margin: 16px;
-    /* border-radius: 0px 32px 0px 0px; */
-    /* background-color: @background; */
-    /* color: @color2; */
 }
 
 #pulseaudio {
     margin: 16px;
-    /* border-radius: 0px 0px 0px 0px; */
-    /* padding: 0px 10px 0px 8px; */
-    /* background-color: @background; */
-    /* color: @color2; */
 }
 
 #clock {
     margin: 16px;
-    /* color: #191724; */
-    /* background-color: #e0def4; */
-    /* background-color: #ebbcba; */
-    /* background-color: @background; */
-    /* color: @background; */
-    /* color: @color2; */
-    /* font-weight: bold; */
-    /* border-radius: 5px; */
-    /* margin: 8px 53px 8px 0px; */
-    /* margin-right: 53px; */
-    /* padding: 0px 8px; */
 }
 
 @keyframes blink {
