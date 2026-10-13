@@ -14,6 +14,7 @@ alias machsgut='shutdown -h 0'
 PS1='[\u@\h \W]\$ '
 
 export NIXPKGS_ALLOW_UNFREE=1
+export CHROME_EXECUTABLE=google-chrome-stable
 export PATH=$PATH:/home/mlpx/.local/bin
 export PATH=$PATH:/home/mlpx/tools/flutter_3_47_6/flutter/bin
 
