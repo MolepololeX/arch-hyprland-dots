@@ -17,6 +17,9 @@ export NIXPKGS_ALLOW_UNFREE=1
 export CHROME_EXECUTABLE=google-chrome-stable
 export PATH=$PATH:/home/mlpx/.local/bin
 export PATH=$PATH:/home/mlpx/tools/flutter_3_47_6/flutter/bin
+export PATH=$PATH:/home/mlpx/tools/dotnet10
+export PATH=$PATH:/home/mlpx/.dotnet/tools
+export DOTNET_ROOT="$HOME/tools/dotnet10"
 
 # freshfetch
 neofetch

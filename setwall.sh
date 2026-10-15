@@ -2,7 +2,7 @@
 
 WALLPAPER_DIR="$HOME/wallpapers/used"
 CURRENT_WALL=$(hyprctl hyprpaper listloaded)
-WALLPAPER="$HOME/wallpapers/moon.png"
+WALLPAPER="$HOME/wallpapers/snow.jpg"
 
 MONITORS=$(hyprctl monitors -j | jq -r '.[] | select(.disabled | not) | .name')
 for M in $MONITORS; do
