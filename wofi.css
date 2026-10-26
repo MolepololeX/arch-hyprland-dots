@@ -3,7 +3,7 @@
 /* CSS Selector for the entire wofi window */
 window{
     background-color: @background;
-    background-color: rgba(0,0,0,0);
+    /* background-color: rgba(0,0,0,0); */
     color: @color2;
     font-family: GeistMono Nerd Font;
     font-size: 18px;
@@ -16,7 +16,7 @@ window{
 }
 /* Selector for the text box for filtering items */
 #input {
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 /* Selector for the scroll window containing inner-box */
@@ -30,7 +30,7 @@ window{
 /* Selector for the box containing text and if present, images */
 #entry {
     margin: 8px 0px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 #entry:selected{

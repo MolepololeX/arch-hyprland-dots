@@ -8,7 +8,7 @@
 
 window#waybar {
     background-color: @background;
-    background: rgba(0.0, 0, 0, 0.0);
+    /* background: rgba(0.0, 0, 0, 0.0); */
     color: @foreground;
 
     transition-property: background-color;
@@ -93,7 +93,7 @@ window#waybar {
     background: rgba(0.0, 0, 0, 0.0);
     color: @foreground;
     /* font-weight: 700; */
-    border-radius: 50px;
+    /* border-radius: 50px; */
     margin: 4px 0px;
     padding: 0px 8px;
 }
@@ -188,11 +188,11 @@ tooltip {
     background: @background;
     /* border-bottom: 2px solid rgba(100, 114, 125, 0.5); */
     border:none;
-    border-radius: 5px;
+    border-radius: 0px;
     /* border: 1px solid @foreground; */
     /* color: #ffffff; */
     /* color: #e0def4; */
-    /* color: @background; */
+    color: @background;
   /* background-color: white; */
     text-shadow: none;
         /* shadow: none; */
