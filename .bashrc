@@ -23,7 +23,7 @@ export DOTNET_ROOT="$HOME/tools/dotnet10"
 
 # freshfetch
 neofetch
-cat ~/.todo.txt
+# cat ~/.todo.txt
 
 eval "$(oh-my-posh init bash --config '~/.config/hypr/ohmyposh.json')"
 
