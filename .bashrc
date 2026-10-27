@@ -11,6 +11,7 @@ alias ls='lsd -a'
 alias grep='grep --color=auto'
 alias lg='lazygit'
 alias machsgut='shutdown -h 0'
+alias tt='. ~/.config/hypr/kittyOpacity.sh'
 PS1='[\u@\h \W]\$ '
 
 export NIXPKGS_ALLOW_UNFREE=1
