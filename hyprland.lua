@@ -280,8 +280,8 @@ hl.window_rule({
     },
     -- match:float = true
     float = true,
-    size = "800 800",
-    center = true,
+    size = "900 900",
+    move = "0 0",
     workspace = "special:magic"
 })
 
@@ -292,6 +292,7 @@ hl.window_rule({
     },
     float = true,
     size = "350 800",
+    center = true,
 })
 
 hl.window_rule({
@@ -300,7 +301,7 @@ hl.window_rule({
         title = "Steam Settings",
     },
     float = true,
-    center = true,
+    move = "1 1",
 })
 
 hl.layer_rule({
