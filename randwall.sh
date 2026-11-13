@@ -10,7 +10,9 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" 
 # hyprctl hyprpaper wallpaper $M,"$WALLPAPER"
 # done
 
-awww img "$WALLPAPER" --transition-type grow --transition-pos 0.8,0.3 --transition-fps 240 --transition-duration 2
+awww img "$WALLPAPER" --transition-type grow --transition-pos 0.8,0.3 --transition-fps 240 --transition-duration 2 --filter Nearest
+
+# --filter Nearest
 
 # wpg includes wal
 wpg -s "$WALLPAPER"
