@@ -15,14 +15,16 @@ alias tt='. ~/.config/hypr/kittyOpacity.sh'
 alias wer='wergefragthat -i -p -w'
 PS1='[\u@\h \W]\$ '
 
-export NIXPKGS_ALLOW_UNFREE=1
-export CHROME_EXECUTABLE=google-chrome-stable
 export PATH=$PATH:/home/mlpx/.local/bin
 export PATH=$PATH:/home/mlpx/go/bin
 export PATH=$PATH:/home/mlpx/tools/flutter_3_47_6/flutter/bin
 export PATH=$PATH:/home/mlpx/tools/dotnet10
 export PATH=$PATH:/home/mlpx/.dotnet/tools
+export PATH=$PATH:/home/mlpx/colibri/c
+
 export DOTNET_ROOT="$HOME/tools/dotnet10"
+export NIXPKGS_ALLOW_UNFREE=1
+export CHROME_EXECUTABLE=google-chrome-stable
 
 # freshfetch
 # cat ~/.todo.txt
